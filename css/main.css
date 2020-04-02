@@ -39,8 +39,10 @@ nav a:hover {
 nav ul {
   list-style-type: none;
   padding-left: 0;
+  font-family: Lato, sans-serif;
 }
 
+h3,
 p {
   font-family: Lato, sans-serif;
 }
@@ -49,17 +51,63 @@ p {
   font-family: Lato, sans-serif;
 }
 
+.secure,
+.cost-effective,
+.quick,
+.easy {
+  background-image: linear-gradient(#0A3A5D, #0CB4DC)
+}
+
+.secure h3,
+.cost-effective h3,
+.quick h3,
+.easy h3,
+.secure p,
+.cost-effective p,
+.quick p,
+.easy p {
+  color: #fff;
+}
+
 
 footer {
   background-image: linear-gradient(#0A3A5D, #0CB4DC)
 }
 
 footer a {
+  font-family: Lato, sans-serif;
   text-decoration: none;
   color: #fff;
+  display: block;
+  padding: .2em
+}
+
+footer a:hover {
+  background-color: #0A3A5D;
+}
+
+.copyright {
+  color: #fff;
+  font-family: Lato, sans-serif;
 }
 
 footer ul {
   list-style-type: none;
   padding-left: 0;
+}
+
+@media only screen and (min-width: 38em) {
+
+
+  nav li {
+    display: inline-block;
+    padding: 0 .3rem;
+  }
+
+  nav a:hover {
+  border-radius: 8px;
+}
+
+
+
 }
