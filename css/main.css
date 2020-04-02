@@ -69,7 +69,6 @@ p {
   color: #fff;
 }
 
-.sign-up
 .e-signature,
 .benefits-header,
 .free-trial {
@@ -78,6 +77,7 @@ p {
 
 .sign-up {
   font-family: Lato, sans-serif;
+  color: #0A3A5D;
 }
 
 
