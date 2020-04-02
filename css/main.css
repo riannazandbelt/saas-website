@@ -69,6 +69,12 @@ p {
   color: #fff;
 }
 
+.e-signature,
+.benefits-header,
+.free-trial {
+  color: #0A3A5D;
+}
+
 
 footer {
   background-image: linear-gradient(#0A3A5D, #0CB4DC)
@@ -82,13 +88,10 @@ footer a {
   padding: .2em
 }
 
-
-
 .copyright {
   color: #fff;
   font-family: Lato, sans-serif;
 }
-
 
 @media only screen and (min-width: 38em) {
 
