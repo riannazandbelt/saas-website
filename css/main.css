@@ -29,7 +29,7 @@ nav a {
 nav a {
   text-decoration: none;
   display: block;
-  padding: .2em
+  padding: .3em
 }
 
 nav a:hover {
@@ -82,30 +82,24 @@ footer a {
   padding: .2em
 }
 
-footer a:hover {
-  background-color: #0A3A5D;
-}
+
 
 .copyright {
   color: #fff;
   font-family: Lato, sans-serif;
 }
 
-footer ul {
-  list-style-type: none;
-  padding-left: 0;
-}
 
 @media only screen and (min-width: 38em) {
 
 
   nav li {
     display: inline-block;
-    padding: 0 .3rem;
+    padding: 0 .5rem;
   }
 
   nav a:hover {
-  border-radius: 8px;
+  border-radius: 10px;
 }
 
 
