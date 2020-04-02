@@ -69,10 +69,15 @@ p {
   color: #fff;
 }
 
+.sign-up
 .e-signature,
 .benefits-header,
 .free-trial {
   color: #0A3A5D;
+}
+
+.sign-up {
+  font-family: Lato, sans-serif;
 }
 
 
@@ -103,6 +108,10 @@ footer a {
 
   nav a:hover {
   border-radius: 10px;
+}
+
+.form {
+  padding-left: .5em;
 }
 
 
