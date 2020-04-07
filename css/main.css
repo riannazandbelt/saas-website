@@ -37,7 +37,6 @@ nav a:hover {
 }
 
 nav ul {
-  list-style-type: none;
   padding-left: 0;
   font-family: Lato, sans-serif;
 }
@@ -117,6 +116,13 @@ footer a {
 .form {
   padding-left: .5em;
 }
+
+.img-flex {
+  padding-right: 1.5em;
+  padding-bottom: 1.5em;
+}
+
+
 
 
 
