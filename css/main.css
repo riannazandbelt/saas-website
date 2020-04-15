@@ -29,7 +29,7 @@ nav a {
 nav a {
   text-decoration: none;
   display: block;
-  padding: .3em
+  padding: .3em;
 }
 
 nav a:hover {
@@ -113,7 +113,6 @@ footer a {
 }
 
 @media only screen and (min-width: 38em) {
-
 
   nav li {
     display: inline-block;
