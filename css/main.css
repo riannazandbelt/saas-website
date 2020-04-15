@@ -95,6 +95,10 @@ p {
   color: #0a3a5d;
 }
 
+.message {
+  color: #0a3a5d;
+}
+
 footer {
   background-image: linear-gradient(#0a3a5d, #0cb4dc);
 }
@@ -114,15 +118,15 @@ footer a {
 
 @media only screen and (min-width: 20em) {
 
-.contact-info {
-  text-align: center;
-  color: #0a3a5d;
-}
+  .contact-info {
+    text-align: center;
+    color: #0a3a5d;
+  }
 
-.contact-us {
-  max-width: 50%;
-  margin: 0 auto;
-}
+  .contact-us {
+    max-width: 50%;
+    margin: 0 auto;
+  }
 
 }
 
