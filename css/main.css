@@ -112,6 +112,20 @@ footer a {
   font-family: Lato, sans-serif;
 }
 
+@media only screen and (min-width: 20em) {
+
+.contact-info {
+  text-align: center;
+  color: #0a3a5d;
+}
+
+.contact-us {
+  max-width: 50%;
+  margin: 0 auto;
+}
+
+}
+
 @media only screen and (min-width: 38em) {
 
   nav li {
@@ -130,6 +144,15 @@ footer a {
   .img-flex {
     padding-right: 1.5em;
     padding-bottom: 1.5em;
+  }
+
+  .contact-info {
+    text-align: left;
+    padding-top: 2em;
+  }
+
+  .contact-us {
+    max-width: 30%;
   }
 
 }
