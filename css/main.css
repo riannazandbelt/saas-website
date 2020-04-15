@@ -1,5 +1,5 @@
 html {
-  font-family: Playfair Display, serif;
+  font-family: "Playfair Display", serif;
 }
 
 .skip-links {
@@ -18,7 +18,7 @@ a:focus {
 }
 
 .banner {
-  background-image: linear-gradient(#0A3A5D, #0CB4DC)
+  background-image: linear-gradient(#0a3a5d, #0cb4dc);
 }
 
 h1,
@@ -33,12 +33,23 @@ nav a {
 }
 
 nav a:hover {
-  background-color: #0A3A5D;
+  background-color: #0a3a5d;
 }
 
 nav ul {
   padding-left: 0;
   font-family: Lato, sans-serif;
+}
+
+.btn {
+  border: 3px solid #0a3a5d;
+  background-color: #0a3a5d;
+  font-family: Lato, sans-serif;
+}
+
+.btn:hover {
+  border: 3px solid #0cb4dc;
+  background-color: #0cb4dc;
 }
 
 h3,
@@ -54,7 +65,7 @@ p {
 .cost-effective,
 .quick,
 .easy {
-  background-image: linear-gradient(#0A3A5D, #0CB4DC)
+  background-image: linear-gradient(#0a3a5d, #0cb4dc);
 }
 
 .secure h3,
@@ -72,7 +83,7 @@ p {
 .e-signature,
 .benefits-header,
 .free-trial {
-  color: #0A3A5D;
+  color: #0a3a5d;
 }
 
 .unlock,
@@ -81,11 +92,11 @@ p {
 .integrations-col,
 .sign-up {
   font-family: Lato, sans-serif;
-  color: #0A3A5D;
+  color: #0a3a5d;
 }
 
 footer {
-  background-image: linear-gradient(#0A3A5D, #0CB4DC)
+  background-image: linear-gradient(#0a3a5d, #0cb4dc);
 }
 
 footer a {
@@ -93,7 +104,7 @@ footer a {
   text-decoration: none;
   color: #fff;
   display: block;
-  padding: .2em
+  padding: .2em;
 }
 
 .copyright {
@@ -110,20 +121,16 @@ footer a {
   }
 
   nav a:hover {
-  border-radius: 10px;
-}
+    border-radius: 10px;
+  }
 
-.form {
-  padding-left: .5em;
-}
+  .form {
+    padding-left: .5em;
+  }
 
-.img-flex {
-  padding-right: 1.5em;
-  padding-bottom: 1.5em;
-}
-
-
-
-
+  .img-flex {
+    padding-right: 1.5em;
+    padding-bottom: 1.5em;
+  }
 
 }
