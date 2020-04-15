@@ -41,6 +41,17 @@ nav ul {
   font-family: Lato, sans-serif;
 }
 
+.lock,
+.dollar-sign,
+.clock,
+.phone {
+  max-height: 64px;
+  max-width: 64px;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 1em;
+}
+
 .btn {
   border: 3px solid #0a3a5d;
   background-color: #0a3a5d;
