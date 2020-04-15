@@ -72,6 +72,10 @@ p {
   font-family: Lato, sans-serif;
 }
 
+.wrapper {
+  border-top: hidden;
+}
+
 .secure,
 .cost-effective,
 .quick,
@@ -135,7 +139,12 @@ footer a {
   }
 
   .contact-us {
-    max-width: 50%;
+    max-width: 40%;
+    margin: 0 auto;
+  }
+
+  .email {
+    max-width: 40%;
     margin: 0 auto;
   }
 
@@ -166,8 +175,18 @@ footer a {
     padding-top: 2em;
   }
 
-  .contact-us {
-    max-width: 30%;
+  .message {
+    text-align: left;
+    padding-top: 2em;
   }
 
+  .contact-us {
+    max-width: 30%;
+    margin: 0 auto;
+  }
+
+  .email {
+    max-width: 30%;
+    margin: 0 auto;
+  }
 }
